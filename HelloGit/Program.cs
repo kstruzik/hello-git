@@ -11,7 +11,12 @@ namespace HelloGit
         static void Main(string[] args)
         {
             Console.WriteLine("Hello Git!");
-            Console.WriteLine("Hello. On beta branch.");
+
+            double number = 3.5670;
+            double precision = 2;
+            string display = string.Format("{0:f" + precision + "}", number);
+            Console.WriteLine(display);
+
             Console.ReadKey();
         }
     }
